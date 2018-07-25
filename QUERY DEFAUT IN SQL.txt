@@ -1,0 +1,5 @@
+SELECT * FROM USER_CONSTRAINTS A,USER_CONSTRAINTS B WHERE B.TABLE_NAME = 'LAPTOP' AND
+	B.CONSTRAINT_NAME = A.R_CONSTRAINT_NAME;
+
+
+https://docs.spring.io/spring-data/jpa/docs/1.5.0.RC1/reference/html/jpa.repositories.html
